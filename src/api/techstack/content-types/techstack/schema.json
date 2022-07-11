@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "techstacks",
+  "info": {
+    "singularName": "techstack",
+    "pluralName": "techstacks",
+    "displayName": "techstack",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "uid",
+      "required": true
+    },
+    "displayedName": {
+      "type": "string"
+    },
+    "displayedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "displayOrder": {
+      "type": "integer"
+    }
+  }
+}

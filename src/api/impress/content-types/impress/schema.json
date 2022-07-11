@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "impresses",
+  "info": {
+    "singularName": "impress",
+    "pluralName": "impresses",
+    "displayName": "impress"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personalInformation": {
+      "type": "richtext"
+    },
+    "disclaimer": {
+      "type": "richtext"
+    }
+  }
+}

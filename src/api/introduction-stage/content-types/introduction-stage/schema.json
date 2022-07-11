@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "introduction_stages",
+  "info": {
+    "singularName": "introduction-stage",
+    "pluralName": "introduction-stages",
+    "displayName": "IntroductionStages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "StageID": {
+      "type": "integer"
+    },
+    "buttoninfo": {
+      "type": "json"
+    },
+    "element0_personal": {
+      "type": "richtext"
+    },
+    "element0_formal": {
+      "type": "richtext"
+    },
+    "element1_personal": {
+      "type": "richtext"
+    },
+    "element1_formal": {
+      "type": "richtext"
+    },
+    "element2_personal": {
+      "type": "richtext"
+    },
+    "element2_formal": {
+      "type": "richtext"
+    },
+    "element3_personal": {
+      "type": "richtext"
+    },
+    "element3_formal": {
+      "type": "richtext"
+    },
+    "element4_personal": {
+      "type": "richtext"
+    },
+    "element4_formal": {
+      "type": "richtext"
+    }
+  }
+}

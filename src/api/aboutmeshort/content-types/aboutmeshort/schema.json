@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutmeshorts",
+  "info": {
+    "singularName": "aboutmeshort",
+    "pluralName": "aboutmeshorts",
+    "displayName": "aboutmeshort"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutme": {
+      "type": "richtext"
+    }
+  }
+}

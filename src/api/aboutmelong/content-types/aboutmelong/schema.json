@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutmelongs",
+  "info": {
+    "singularName": "aboutmelong",
+    "pluralName": "aboutmelongs",
+    "displayName": "Aboutmelong",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "summary_formal": {
+      "type": "richtext"
+    },
+    "summary_personal": {
+      "type": "richtext"
+    },
+    "text_id": {
+      "type": "string"
+    }
+  }
+}
